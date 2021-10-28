@@ -11,6 +11,21 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
+import environ
+import dj_database_url
+
+env = environ.Env(
+    ENV=(str, 'production'),
+    DEBUG=(bool, False),
+    ADMIN_URL=(str, 'adminz/'),
+    TIME_ZONE=(str, 'Asia/Phnom_Penh'),
+    SECRET_KEY=(str, 'S3cRétK3yH3rë'),
+    LANGUAGE_CODE=(str, 'en-us'),
+    ALLOWED_HOSTS=(str, '*'),
+    DJANGO_STATIC_HOST=(str, ''),
+)
+
+env.read_env(env.str('ENV_PATH', '.env'))
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -23,9 +38,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'h%g0b1oq&y&x6=dhttpb8wk%8=sixw6ct)6&s&3e(kl88r5dn_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = env('DEBUG')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = env('ALLOWED_HOSTS').split(" ")
 
 
 # Application definition
@@ -103,9 +118,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = env('LANGUAGE_CODE')
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = env('TIME_ZONE')
 
 USE_I18N = True
 
@@ -118,3 +133,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+database_url = dj_database_url.config(conn_max_age=600, ssl_require=False)
+if database_url is not None:
+    DATABASES['default'] = database_url
