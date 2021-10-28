@@ -1,0 +1,14 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#392C0F",
+        "titleBar.activeBackground": "#4F3D15",
+        "titleBar.activeForeground": "#FCFAF4"
+    },
+    "files.associations": {
+        "**/*.html": "html",
+        "**/templates/**/*": "django-txt",
+        "**/templates/**/*.html": "django-html",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    "emmet.includeLanguages": {"django-html": "html"}
+}
