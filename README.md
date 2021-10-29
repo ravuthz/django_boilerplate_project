@@ -26,6 +26,7 @@ echo ENV="staging" >> .env
 echo DEBUG=True >> .env
 echo SECRET_KEY="!@c*ljujxq!xh-6%egnn(*s=dev)89*0xy$z#$cto_z1y279z!" >> .env
 echo DATABASE_URL="postgres://adminz:123123@localhost:5432/django_boilerplate_project" >> .env
+echo INTERNAL_IPS=127.0.0.1 >> .env
 
 ```
 
