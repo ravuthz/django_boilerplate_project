@@ -5,13 +5,13 @@ This my prepare django project with some common configure for next project
 
 ## How to use
 
-Just *clone* and *rename* **biolerplate_project** to **new_project_name**
+Just *clone* and *rename* **boilerplate_project** to **new_project_name**
 
 ```bash
 
 git clone https://github.com/ravuthz/django_boilerplate_project.git django_pos
 
-cd django_pos && python manage.py rename biolerplate_project django_pos
+cd django_pos && python manage.py rename boilerplate_project django_pos
 
 ```
 
