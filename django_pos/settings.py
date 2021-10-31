@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # Commom packages
+    'phonenumber_field',
     'django_extensions',
     'debug_toolbar',
     'model_utils',
