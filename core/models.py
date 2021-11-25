@@ -2,6 +2,7 @@ from django.db import models
 from django_extensions.db.fields import AutoSlugField
 from model_utils.fields import MonitorField
 from model_utils.models import SoftDeletableModel
+from phonenumber_field.modelfields import PhoneNumberField
 
 
 class BaseModel(SoftDeletableModel, models.Model):
@@ -14,10 +15,18 @@ class BaseModel(SoftDeletableModel, models.Model):
         abstract = True
 
 
+class BasePerson(BaseModel):
+    phone = PhoneNumberField(blank=True)
+
+    class Meta:
+        abstract = True
+
+
 class BaseCodeDesc(models.Model):
     slug = AutoSlugField(populate_from='code', editable=True, unique=True)
-    code = models.SlugField(max_length=100, null=False, unique=False)
+    code = models.SlugField(max_length=255, null=False, unique=False)
     desc = models.TextField(max_length=255, null=True)
+
     # desc_en = models.TextField(max_length=255, null=True)
 
     class Meta:
@@ -26,7 +35,7 @@ class BaseCodeDesc(models.Model):
     def __str__(self):
         return self.desc
 
-    def __unicode__(self):  
+    def __unicode__(self):
         return self.desc
 
 
@@ -35,6 +44,7 @@ class BaseSlugName(models.Model):
     name = models.CharField(max_length=255, null=False, unique=True)
     # name_en = models.CharField(max_length=255, null=False, unique=True)
     desc = models.TextField(max_length=255, null=True)
+
     # desc_en = models.TextField(max_length=255, null=True)
 
     class Meta:
