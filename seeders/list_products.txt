@@ -1,0 +1,3 @@
+from apps.products.models import Product
+
+Product.objects.count()

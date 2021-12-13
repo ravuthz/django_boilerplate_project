@@ -1,0 +1,168 @@
+[
+{
+    "model": "products.category",
+    "pk": 1,
+    "fields": {
+        "is_removed": false,
+        "created_at": "1999-06-06T22:58:52Z",
+        "updated_at": "2007-11-02T19:28:52Z",
+        "deleted_at": "2021-11-22T17:55:21.207Z",
+        "slug": "unit-really-ago-oil-upon-break-special-interesting",
+        "name": "Unit really ago oil upon break special. Interesting lead final traditional give hundred paper.\nSign long there allow agreement song reach. Worry save candidate oil agree next.",
+        "desc": "Hold executive discussion. Best him happen remain.\nTen technology commercial sell my. To buy guy especially down goal. Important statement political assume know break.",
+        "parent": null
+    }
+},
+{
+    "model": "products.category",
+    "pk": 2,
+    "fields": {
+        "is_removed": false,
+        "created_at": "2020-03-15T16:47:41Z",
+        "updated_at": "1973-04-24T22:08:16Z",
+        "deleted_at": "2021-11-22T17:55:21.207Z",
+        "slug": "international-mention-both-performance-themselves",
+        "name": "International mention both performance. Themselves sometimes detail far.\nVery threat growth beyond technology. Agent top house floor national resource group. Order effort short say owner something.",
+        "desc": "Each while political college value north whatever commercial. Seat sometimes inside ten help impact either. Station summer full material thousand night if.",
+        "parent": 1
+    }
+},
+{
+    "model": "products.category",
+    "pk": 3,
+    "fields": {
+        "is_removed": false,
+        "created_at": "2006-04-22T03:08:06Z",
+        "updated_at": "2019-05-27T13:34:50Z",
+        "deleted_at": "2021-11-22T17:55:21.207Z",
+        "slug": "model-baby-ball-vote-back-safe-travel-government-c",
+        "name": "Model baby ball vote back safe. Travel government compare through. Sign peace support set.\nTest computer her home draw. Turn cover before body really. Actually ever run fear parent which.",
+        "desc": "Road beat once chair. Claim audience degree accept player behind use. Service because seven situation through environment parent.\nLaw financial skin. Others we affect plant machine industry company.",
+        "parent": 2
+    }
+},
+{
+    "model": "products.category",
+    "pk": 7,
+    "fields": {
+        "is_removed": false,
+        "created_at": "1978-03-24T13:59:26Z",
+        "updated_at": "1984-06-22T06:15:45Z",
+        "deleted_at": "2021-11-22T18:21:18.294Z",
+        "slug": "option-mother-cause-law-each-section-let-smile-sto",
+        "name": "Option mother cause law each section let. Smile stock son allow idea.\nAttack loss defense occur. Me carry hotel ready. Wrong owner might.\nDescribe present attention type look. Worry style organization truth election you partner top.",
+        "desc": "Never support hope life oil along church general. Machine seem manager assume subject those.\nDifficult foreign per skin. Guess morning meeting. Minute short develop than simple tax my.",
+        "parent": null
+    }
+},
+{
+    "model": "products.category",
+    "pk": 8,
+    "fields": {
+        "is_removed": false,
+        "created_at": "2021-11-22T18:23:16.329Z",
+        "updated_at": "2021-11-22T18:23:16.329Z",
+        "deleted_at": "2021-11-22T18:23:16.328Z",
+        "slug": "cate-1",
+        "name": "Cate 1",
+        "desc": "Category 1",
+        "parent": null
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "is_removed": false,
+        "created_at": "1970-01-04T21:49:32Z",
+        "updated_at": "1977-05-12T23:58:09Z",
+        "deleted_at": "2021-11-22T18:23:16.344Z",
+        "slug": "pay-participant-school-food-walk-win-condition-com",
+        "name": "Pay participant school food. Walk win condition common run sense everybody. Anyone fine nothing stop what.\nDoctor around live stop. Those building goal grow have hand. Figure end class entire drop organization.",
+        "desc": "Pick begin speak kid girl. Bag note pretty. Nothing idea down bad poor.\nLess reduce since professional medical. Word not can peace. Among include course all book officer shoulder early.",
+        "category": 8,
+        "price": "0.03",
+        "quantity": 29376
+    }
+},
+{
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "is_removed": false,
+        "created_at": "1971-02-18T13:42:31Z",
+        "updated_at": "2008-03-12T06:58:30Z",
+        "deleted_at": "2021-11-22T18:23:16.344Z",
+        "slug": "to-can-impact-real-treat-oil-agreement-campaign-fo",
+        "name": "To can impact real treat.\nOil agreement campaign force. Mrs story land charge base source ahead theory. Good what color worker economic add.\nPlan apply town. Scientist Republican over clear interest seat Congress.",
+        "desc": "Vote wrong firm.\nPossible whether product agency up. Article reveal civil left a station capital yet. Heavy door character table suddenly new.\nSkill pass cut value director beautiful.",
+        "category": 8,
+        "price": "0.81",
+        "quantity": 1264
+    }
+},
+{
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+        "is_removed": false,
+        "created_at": "1987-10-14T14:36:44Z",
+        "updated_at": "2000-04-28T08:51:19Z",
+        "deleted_at": "2021-11-22T18:23:16.344Z",
+        "slug": "probably-cost-size-leave-what-choice-time-computer",
+        "name": "Probably cost size leave what choice time. Computer participant during good. Form throughout fine model.\nSerious the item recently street natural bank. Begin law test present writer father prevent. Loss account letter.",
+        "desc": "Ahead decade south kitchen answer hospital rock. Stuff significant what. Investment above huge important. Television catch service million.",
+        "category": 8,
+        "price": "0.07",
+        "quantity": 14094
+    }
+},
+{
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+        "is_removed": false,
+        "created_at": "1984-08-23T01:49:58Z",
+        "updated_at": "1981-04-07T20:55:08Z",
+        "deleted_at": "2021-11-22T18:23:16.344Z",
+        "slug": "science-reason-need-crime-top-part-tough-treat-lan",
+        "name": "Science reason need crime top. Part tough treat language surface board. Institution single cause central impact between within.\nMeasure protect I particular. Mind take hear statement sort. Step fly both will to product.",
+        "desc": "They human determine also hospital. Tax long mouth try figure large member.",
+        "category": 8,
+        "price": "0.01",
+        "quantity": 4458
+    }
+},
+{
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+        "is_removed": false,
+        "created_at": "2020-10-07T21:11:06Z",
+        "updated_at": "1987-05-26T16:31:45Z",
+        "deleted_at": "2021-11-22T18:23:16.344Z",
+        "slug": "economy-no-do-mother-gas-page-ten-region-hair-guy",
+        "name": "Economy no do mother. Gas page ten region hair guy.\nVarious leader personal part size recognize buy almost. Control run collection Mr yeah chance within.\nFirm agreement professional money discover throw art music. Share area among former their.",
+        "desc": "Far style determine important. Fight raise stuff newspaper fill improve head me. Table personal find begin film.\nNear option site process. Alone per maybe school nation front.",
+        "category": 8,
+        "price": "0.42",
+        "quantity": 11971
+    }
+},
+{
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+        "is_removed": false,
+        "created_at": "2014-03-14T20:01:05Z",
+        "updated_at": "1995-10-25T20:53:16Z",
+        "deleted_at": "2021-11-22T18:23:16.344Z",
+        "slug": "place-process-more-town-owner-score-executive-midd",
+        "name": "Place process more town. Owner score executive middle. Note deal ability cause.\nYet executive suffer color beat. Old offer peace but apply.\nWork do discussion certainly. Trip heavy couple yard lead decade economy. Cold together energy.",
+        "desc": "Image wide glass phone. Know bit more adult page take.\nImprove arrive brother tax. Away foot majority while enjoy. Face sport author dinner place leave will.",
+        "category": 8,
+        "price": "0.71",
+        "quantity": 32430
+    }
+}
+]
